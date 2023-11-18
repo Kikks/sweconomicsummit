@@ -8,7 +8,12 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
+
   theme: {
+    fontFamily: {
+      heebo: ["'Heebo', sans-serif"],
+      poppins: ["'Poppins', sans-serif"],
+    },
     extend: {
       boxShadow: {
         highlight: 'inset 0 0 0 1px rgba(255, 255, 255, 0.05)',
@@ -21,4 +26,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};

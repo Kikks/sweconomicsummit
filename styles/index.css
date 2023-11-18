@@ -3,7 +3,35 @@
 @tailwind utilities;
 
 @supports (font: -apple-system-body) and (-webkit-appearance: none) {
-  img[loading="lazy"] {
+  img[loading='lazy'] {
     clip-path: inset(0.6px);
+  }
+}
+
+body {
+  @apply overflow-x-hidden bg-white font-heebo text-green-950;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  @apply mx-auto w-full max-w-[1400px];
+}
+
+@layer base {
+  .font-outline-2 {
+    -webkit-text-stroke-width: 2px;
+  }
+  .font-outline-4 {
+    -webkit-text-stroke-width: 4px;
+  }
+  .font-outline-green-500 {
+    -webkit-text-stroke-color: #10b981;
+  }
+
+  .font-outline-white {
+    -webkit-text-stroke-color: #fff;
   }
 }
