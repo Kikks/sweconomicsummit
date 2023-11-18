@@ -55,7 +55,7 @@ export const events = [
     title: 'Market lab',
     id: 'market-lab',
     summary:
-      'At WeCargo, we are sure that innovation occurs only through partnership. Our partners will welcome you on their booth.',
+      'At SWECONOMICSUMMIT, we are sure that innovation occurs only through partnership. Our partners will welcome you on their booth.',
     url: '/program#market-lab',
     time: '10:00 am (GMT +01:00)',
     location: 'MUSON center, Lagos',

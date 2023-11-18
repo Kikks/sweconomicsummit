@@ -39,7 +39,7 @@ export const conferenceScheduleData = [
     date: '14 NOV',
     title: 'Market lab',
     summary:
-      'At WeCargo, we are sure that innovation occurs only through partnership. Our partners will welcome you on their booth.',
+      'At SWECONOMICSUMMIT, we are sure that innovation occurs only through partnership. Our partners will welcome you on their booth.',
     url: '/programs#market-lab',
   },
 ];
