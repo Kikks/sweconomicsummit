@@ -1,18 +1,18 @@
 export const whyAttendLinks = [
   {
-    label: 'Economic profesionals',
-    url: '/why-attend#economic-professionals',
+    label: 'Networking and Collaboration',
+    url: '/why-attend#networking-and-collaboration',
   },
   {
-    label: 'Investors',
-    url: '/why-attend#investors',
+    label: 'Engagement dinner with Government',
+    url: '/why-attend#engagement-dinner-with-government',
   },
   {
-    label: 'Startups',
-    url: '/why-attend#startups',
+    label: 'Product Launch Sessions',
+    url: '/why-attend#product-launch-sessions',
   },
   {
-    label: 'Hackers',
-    url: '/why-attend#hackers',
+    label: 'Brand/Business Spotlights',
+    url: '/why-attend#brand-business-spotlights',
   },
 ];

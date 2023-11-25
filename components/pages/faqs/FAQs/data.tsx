@@ -26,7 +26,7 @@ export const faqs = [
           You can cancel your subscription at any time by emailing us at{' '}
           <a
             href="mailto:support@sweconomicsummit.com"
-            className="text-green-500 underline"
+            className="text-blue-500 underline"
           >
             support@sweconomicsummit.com
           </a>
@@ -62,7 +62,7 @@ export const faqs = [
           You can cancel your subscription at any time by emailing us at{' '}
           <a
             href="mailto:support@sweconomicsummit.com"
-            className="text-green-500 underline"
+            className="text-blue-500 underline"
           >
             support@sweconomicsummit.com
           </a>

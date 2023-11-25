@@ -54,7 +54,7 @@ const Partners = () => {
                 title="Partners"
                 visible={isInView}
                 delay={0.1}
-                className="inline-block !w-auto whitespace-nowrap font-poppins text-4xl font-bold leading-loose text-green-500 drop-shadow-sm sm:text-6xl md:text-7xl lg:text-[5.5rem]"
+                className="inline-block !w-auto whitespace-nowrap font-poppins text-4xl font-bold leading-loose text-blue-500 drop-shadow-sm sm:text-6xl md:text-7xl lg:text-[5.5rem]"
               />
             </div>
           </div>
@@ -73,7 +73,7 @@ const Partners = () => {
               variants={itemVariants}
               viewport={{ once: true, margin: '-100px' }}
               whileInView="visible"
-              className={`group col-span-1 flex aspect-square items-center justify-center border border-green-950/10 p-10 `}
+              className={`group col-span-1 flex aspect-square items-center justify-center border border-blue-950/10 p-10 `}
             >
               <item.Icon />
             </motion.div>
@@ -97,7 +97,7 @@ const Partners = () => {
               target="_blank"
               rel="noopener noreferrer"
               href="mailto:partnership@sweconomicsummit.com?subject=Partnership%20Inquiry"
-              className="relative z-10 block overflow-hidden rounded-sm border border-green-500 bg-white px-5 py-3 text-lg font-semibold text-green-500 duration-300 before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-0 before:rounded-sm before:bg-green-500 before:mix-blend-difference before:duration-300 md:px-8 md:py-4 md:text-xl lg:px-10 lg:py-5 lg:text-2xl lg:hover:before:w-full"
+              className="relative z-10 block overflow-hidden rounded-sm border border-blue-500 bg-white px-5 py-3 text-lg font-semibold text-blue-500 duration-300 before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-0 before:rounded-sm before:bg-blue-500 before:mix-blend-difference before:duration-300 md:px-8 md:py-4 md:text-xl lg:px-10 lg:py-5 lg:text-2xl lg:hover:before:w-full"
             >
               <span className="z-20">Become a partner</span>
             </Link>

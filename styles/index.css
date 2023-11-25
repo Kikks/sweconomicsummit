@@ -9,7 +9,7 @@
 }
 
 body {
-  @apply overflow-x-hidden bg-white font-heebo text-green-950;
+  @apply overflow-x-hidden bg-white font-heebo text-blue-950;
 }
 
 html {
@@ -27,7 +27,7 @@ html {
   .font-outline-4 {
     -webkit-text-stroke-width: 4px;
   }
-  .font-outline-green-500 {
+  .font-outline-blue-500 {
     -webkit-text-stroke-color: #10b981;
   }
 

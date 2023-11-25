@@ -1,26 +1,26 @@
 export const reasons = [
   {
-    title: 'Economic professionals',
-    id: 'economic-professionals',
+    title: 'Networking and Collaboration',
+    id: 'networking-and-collaboration',
     description:
-      'You are curious to discover, with other economic professionals, how your industry is expected to change in a near future? SWECONOMICSUMIIT is the place to be.',
+      'Connect with a diverse community of policy-makers, professionals, enthusiasts and influencers to exchange ideas and foster collaborations that drive innovation and profit making.',
   },
   {
-    title: 'Investors',
-    id: 'investors',
+    title: 'Engagement dinner with Government',
+    id: 'engagement-dinner-with-government',
     description:
-      "Don't miss the unique opportunity to discover investment opportunities in a radically changing industry. Join us to meet and listen the actors of the industry of tommorow.",
+      'he SWES 2024 provides a platform for interaction with high level government officials at a special dinner session.',
   },
   {
-    title: 'Startups',
-    id: 'startups',
+    title: 'Product Launch Sessions',
+    id: 'product-launch-sessions',
     description:
-      'Whether you are looking for funding, talent, customers, media exposure or mentoring, SWECONOMICSUMIIT is a unique opportunity to reach the global audience and engage with the community.',
+      'You get a veritable platform to showcase your cutting-edge products through live demonstrations, providing some of the industry’s leading stakeholders with an exclusive experience of your product offerings.',
   },
   {
-    title: 'Hackers',
-    id: 'hackers',
+    title: 'Brand/Business Spotlights',
+    id: 'brand-business-spotlights',
     description:
-      "You want to challenge yourself and the statusquo? You want to meet other air freight pros & hackers? Jump on board of SWECONOMICSUMIIT and let's have fun.",
+      'Elevate your brand or business by taking centre stage during the Summit.',
   },
 ];

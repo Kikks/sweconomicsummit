@@ -7,11 +7,11 @@ const ProgramPage = () => {
   return (
     <AppLayout
       meta={{
-        title: `Programs - ${appConfig.title}`,
+        title: `Agenda - ${appConfig.title}`,
       }}
     >
       <Hero
-        title="Programs"
+        title="Agenda"
         subtitle="Hold on to your helmets, you're in for a ride!"
       />
       <Events />

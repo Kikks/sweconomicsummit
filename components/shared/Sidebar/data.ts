@@ -10,16 +10,20 @@ export const sidebarLinks = navLinks;
 
 export const otherLinks = [
   {
-    name: 'About',
-    url: '/about',
+    name: 'Exhibit',
+    url: '/exhibit',
   },
   {
-    name: 'Partners',
-    url: '/partners',
+    name: 'Sponsor',
+    url: '/sponsor',
   },
   {
-    name: 'FAQs',
-    url: '/faqs',
+    name: 'Newsroom',
+    url: '/newsroom',
+  },
+  {
+    name: 'Media hub',
+    url: '/media-hub',
   },
 ];
 

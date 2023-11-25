@@ -73,7 +73,7 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose }) => {
           initial="hidden"
           animate="visible"
           exit="exit"
-          className="fixed z-[400] flex h-screen w-full flex-col overflow-hidden bg-green-950"
+          className="fixed z-[400] flex h-screen w-full flex-col overflow-hidden bg-blue-950"
         >
           <div className="container flex w-full items-center justify-end space-x-5 p-5 duration-500 md:px-10 lg:space-x-10 lg:py-7">
             <motion.button
@@ -87,7 +87,7 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose }) => {
               <Link
                 href="/"
                 onClick={onClose}
-                className="relative z-[500] overflow-hidden rounded-sm bg-white px-5 py-3 font-semibold text-green-500 duration-300 before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-0 before:rounded-sm before:bg-green-500 before:mix-blend-difference before:duration-300 lg:hover:before:w-full"
+                className="relative z-[500] overflow-hidden rounded-sm bg-white px-5 py-3 font-semibold text-blue-500 duration-300 before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-0 before:rounded-sm before:bg-blue-500 before:mix-blend-difference before:duration-300 lg:hover:before:w-full"
               >
                 <span className="">Register Now</span>
               </Link>
@@ -100,7 +100,7 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose }) => {
                 <Link
                   href={item.url}
                   key={index}
-                  className="relative z-10 h-14 w-full sm:h-20 md:h-28 lg:h-[7.8rem]"
+                  className="relative z-10 h-12 w-full sm:h-20 md:h-28 lg:h-[7.8rem]"
                   onClick={onClose}
                 >
                   <AnimatedHeader
@@ -108,7 +108,7 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose }) => {
                     visible
                     delay={(index + 1) * 0.2 + 0.2}
                     as="h4"
-                    className="font-outline-white font-outline-2 hover:font-outline-green-500 flex !w-auto items-center whitespace-nowrap font-poppins text-5xl font-bold text-white drop-shadow-sm duration-300 hover:text-green-950 sm:text-7xl md:text-[90px] lg:text-[100px] lg:leading-loose"
+                    className="font-outline-white font-outline-2 hover:font-outline-blue-500 flex !w-auto items-center whitespace-nowrap font-poppins text-4xl font-bold text-white drop-shadow-sm duration-300 hover:text-blue-950 sm:text-7xl md:text-[90px] lg:text-[100px] lg:leading-loose"
                   />
                 </Link>
               ))}
@@ -127,7 +127,7 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose }) => {
                       visible
                       delay={(index + 1) * 0.2 + 0.2}
                       as="h6"
-                      className="!block !w-auto whitespace-nowrap font-heebo text-xl leading-loose text-white drop-shadow-sm duration-300 hover:text-green-500 sm:text-2xl md:text-3xl lg:text-4xl"
+                      className="!block !w-auto whitespace-nowrap font-heebo text-xl leading-loose text-white drop-shadow-sm duration-300 hover:text-blue-500 sm:text-2xl md:text-3xl lg:text-4xl"
                     />
                   </Link>
                 ))}

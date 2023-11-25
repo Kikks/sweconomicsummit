@@ -15,14 +15,14 @@ const Input: FC<InputProps> = ({
     <div className="mb-6 w-full md:mb-0">
       {label && (
         <label
-          className="mb-2 block font-poppins text-xs font-bold uppercase tracking-wide text-green-950"
+          className="mb-2 block font-poppins text-xs font-bold uppercase tracking-wide text-blue-950"
           htmlFor={id}
         >
           {label} {required && <span className="text-red-500">*</span>}
         </label>
       )}
       <input
-        className={`mb-3 block h-10 w-full appearance-none rounded border bg-gray-50 px-4 py-1 font-heebo text-green-950 duration-300 focus:bg-white focus:outline-green-500 ${
+        className={`mb-3 block h-10 w-full appearance-none rounded border bg-gray-50 px-4 py-1 font-heebo text-blue-950 duration-300 focus:bg-white focus:outline-blue-500 ${
           error ? '!border-red-500' : ''
         }`}
         id={id}

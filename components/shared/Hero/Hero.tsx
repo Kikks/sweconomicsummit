@@ -40,7 +40,7 @@ const Hero: FC<HeroProps> = ({ title, subtitle, text }) => {
         />
       </motion.figure>
 
-      <div className="absolute left-0 top-0 z-[2] h-full w-full bg-green-500/90 mix-blend-darken" />
+      <div className="absolute left-0 top-0 z-[2] h-full w-full bg-blue-500/90 mix-blend-darken" />
       <div className="absolute left-0 top-0 z-[2] h-full w-full bg-black/40" />
 
       <div className="container flex h-full flex-col items-start justify-center pb-14 pt-[15vh] sm:pt-[20vh] md:space-y-3 lg:pt-[40vh]">
@@ -74,7 +74,7 @@ const Hero: FC<HeroProps> = ({ title, subtitle, text }) => {
                 damping: 30,
               },
             }}
-            className="z-10 mt-10 flex flex-col space-y-5 font-heebo text-lg text-white md:!mt-10 md:max-w-[70vw] md:text-xl xl:max-w-[50vw]"
+            className="z-10 mt-10 flex flex-col space-y-5 font-heebo text-lg text-white md:!mt-10 md:max-w-[70vw] md:text-xl xl:max-w-[50vw] 2xl:max-w-[700px]"
           >
             {text}
           </motion.div>

@@ -61,7 +61,7 @@ const SpeakersAndPanelists = () => {
               },
             }}
             viewport={{ once: true }}
-            className="font-poppins text-sm font-bold capitalize text-green-500 md:text-base"
+            className="font-poppins text-sm font-bold capitalize text-blue-500 md:text-base"
           >
             MAIN SPEAKERS
           </motion.h2>
@@ -114,7 +114,7 @@ const SpeakersAndPanelists = () => {
               },
             }}
             viewport={{ once: true }}
-            className="font-poppins text-sm font-bold capitalize text-green-500 md:text-base"
+            className="font-poppins text-sm font-bold capitalize text-blue-500 md:text-base"
           >
             PANEL LIST
           </motion.h2>
@@ -134,14 +134,14 @@ const SpeakersAndPanelists = () => {
                 whileInView="visible"
                 className="relative col-span-1 flex flex-col items-start justify-end space-y-3 overflow-hidden"
               >
-                <h3 className="z-[10] max-w-[15ch] font-poppins text-2xl font-bold text-green-500 md:text-2xl lg:text-3xl">
+                <h3 className="z-[10] max-w-[15ch] font-poppins text-2xl font-bold text-blue-500 md:text-2xl lg:text-3xl">
                   {item.name.split(' ').map((name) => (
                     <span className="block" key={name}>
                       {name}
                     </span>
                   ))}
                 </h3>
-                <span className="z-[10] text-green-950">{item?.title}</span>
+                <span className="z-[10] text-blue-950">{item?.title}</span>
               </motion.div>
             ))}
           </motion.div>

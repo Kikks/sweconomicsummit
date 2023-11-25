@@ -4,20 +4,20 @@ export const footerLinks = [
     label: 'About',
   },
   {
-    href: '/faqs',
-    label: 'FAQs',
+    href: '/exhibit',
+    label: 'Exhibit',
   },
   {
-    href: '/contact',
-    label: 'Contact',
+    href: '/sponsor',
+    label: 'Sponsor',
   },
   {
-    href: '/privacy-policy',
-    label: 'Privacy Policy',
+    href: '/newsroom',
+    label: 'Newsroom',
   },
   {
-    href: '/terms-and-conditions',
-    label: 'Terms & Conditions',
+    href: '/media-hub',
+    label: 'Media hub',
   },
 ];
 

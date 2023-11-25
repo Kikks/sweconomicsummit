@@ -85,8 +85,14 @@ const Navbar: FC<NavbarProps> = ({ toggleSidebar }) => {
             <motion.div key={index} variants={itemVariant}>
               <Link
                 href={link.url}
-                className={`relative hidden cursor-pointer font-poppins font-semibold text-white duration-500 before:absolute before:-bottom-2 before:left-0 before:h-0.5 before:w-0 before:bg-green-500 before:duration-300 hover:before:w-full lg:block ${
-                  pathname.startsWith(link.url) ? 'before:!w-full' : ''
+                className={`relative hidden cursor-pointer font-poppins font-semibold text-white duration-500 before:absolute before:-bottom-2 before:left-0 before:h-0.5 before:w-0 before:bg-blue-500 before:duration-300 hover:before:w-full lg:block ${
+                  link.url !== '/' && pathname.startsWith(link.url)
+                    ? 'before:!w-full'
+                    : ''
+                } ${
+                  link.url === '/' && pathname === link.url
+                    ? 'before:w-full'
+                    : ''
                 }`}
               >
                 {link.name}
@@ -105,7 +111,7 @@ const Navbar: FC<NavbarProps> = ({ toggleSidebar }) => {
           <motion.div variants={itemVariant} className="hidden md:inline-block">
             <Link
               href="/register"
-              className="relative z-[500] overflow-hidden rounded-sm bg-white px-5 py-3 font-semibold text-green-500 duration-300 before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-0 before:rounded-sm before:bg-green-500 before:mix-blend-difference before:duration-300 lg:hover:before:w-full"
+              className="relative z-[500] overflow-hidden rounded-sm bg-white px-5 py-3 font-semibold text-blue-500 duration-300 before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-0 before:rounded-sm before:bg-blue-500 before:mix-blend-difference before:duration-300 lg:hover:before:w-full"
             >
               <span className="">Register Now</span>
             </Link>

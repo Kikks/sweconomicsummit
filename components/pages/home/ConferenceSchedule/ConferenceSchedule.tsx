@@ -54,7 +54,7 @@ const ConferenceSchedule = () => {
               title="Much more than"
               visible={isInView}
               delay={0.1}
-              className="inline-block !w-auto whitespace-nowrap font-poppins text-4xl font-bold leading-loose text-green-500 drop-shadow-sm sm:text-6xl md:text-7xl lg:text-[5.5rem]"
+              className="inline-block !w-auto whitespace-nowrap font-poppins text-4xl font-bold leading-loose text-blue-500 drop-shadow-sm sm:text-6xl md:text-7xl lg:text-[5.5rem]"
             />
           </div>
           <div className="relative z-10 h-14 w-full sm:h-16 md:h-20 lg:h-28">
@@ -62,7 +62,7 @@ const ConferenceSchedule = () => {
               title="just a conference"
               visible={isInView}
               delay={0.3}
-              className="inline-block !w-auto whitespace-nowrap font-poppins text-4xl font-bold leading-loose text-green-500 drop-shadow-sm sm:text-6xl md:text-7xl lg:text-[5.5rem]"
+              className="inline-block !w-auto whitespace-nowrap font-poppins text-4xl font-bold leading-loose text-blue-500 drop-shadow-sm sm:text-6xl md:text-7xl lg:text-[5.5rem]"
             />
           </div>
         </div>
@@ -71,7 +71,7 @@ const ConferenceSchedule = () => {
           variants={containerVariants}
           initial="hidden"
           animate={isInView ? 'visible' : 'hidden'}
-          className="grid w-full grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-3 lg:gap-10"
+          className="grid w-full grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-2 lg:gap-10"
         >
           {conferenceScheduleData.map((item, index) => (
             <motion.div
@@ -82,21 +82,21 @@ const ConferenceSchedule = () => {
               whileInView="visible"
               className="col-span-1 flex flex-col items-start space-y-3"
             >
-              <span className="font-poppins text-xs font-black text-green-500 md:text-sm">
+              <span className="font-poppins text-xs font-black text-blue-500 md:text-sm">
                 {item?.date}
               </span>
               <h3 className="font-poppins text-2xl font-bold md:text-2xl lg:text-3xl">
                 {item?.title}
               </h3>
-              <p>{item.summary}</p>
+              <p className="max-w-[400px]">{item.summary}</p>
               <Link
                 href={item.url}
-                className="relative col-span-1 flex items-center space-x-2 before:absolute before:-bottom-2 before:left-0 before:h-0.5 before:w-0 before:bg-green-500 before:duration-300 hover:before:w-full "
+                className="relative col-span-1 flex items-center space-x-2 before:absolute before:-bottom-2 before:left-0 before:h-0.5 before:w-0 before:bg-blue-500 before:duration-300 hover:before:w-full "
               >
-                <span className="cursor-pointer font-poppins font-bold text-green-500 duration-500 md:text-lg xl:text-lg">
+                <span className="cursor-pointer font-poppins font-bold text-blue-500 duration-500 md:text-lg xl:text-lg">
                   Discover more
                 </span>
-                <ArrowRightIcon className="h-4 w-4 text-green-500" />
+                <ArrowRightIcon className="h-4 w-4 text-blue-500" />
               </Link>
             </motion.div>
           ))}

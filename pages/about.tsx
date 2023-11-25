@@ -6,31 +6,42 @@ const AboutPage = () => {
   return (
     <AppLayout
       meta={{
-        title: `About - ${appConfig.title}`,
+        title: `About us - ${appConfig.title}`,
       }}
     >
       <Hero
-        title="About"
+        title="About us"
         text={
           <>
             <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              ab expedita eos at quia placeat fugit temporibus autem atque quos?
+              Hosted by Nigerian NewsDirect, the South-West Economic Summit
+              brings together stakeholders including top government officials,
+              financial institutions, economists and thought leaders to discuss
+              the most pressing challenges in policies, regulations,
+              infrastructure development, and how the South-West can leverage
+              its rich human and material resources to drive the region&apos;s
+              economic growth.
             </span>
 
             <span>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo,
-              unde dicta? Ex praesentium, pariatur quam repellendus dolore
-              expedita veritatis non esse optio ea ullam deserunt corporis enim
-              cupiditate magnam tempore culpa inventore quis quia laboriosam
-              perferendis dolor suscipit! Aliquid, repudiandae?
+              It is the biggest gathering yet of South-West Governments and
+              private sector players providing a platform to foster
+              partnerships, adumbrate on strategies and innovation to drive the
+              economy of the South-West.
             </span>
 
             <span>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et,
-              tenetur delectus? Rem eius molestiae, dolorem magni exercitationem
-              alias neque rerum libero veniam fuga quia consequuntur saepe
-              numquam dolore tempore illo.
+              SWES 2024 hosts an exhibition of international and indigenous
+              sector products and services - economic operators, national and
+              international companies and potential investors, all coming
+              together to present new technologies and bridge deficits in the
+              economy.
+            </span>
+
+            <span>
+              With numerous speeches, hugh lebel networking, dinner and plenary
+              sessions throughout the summit, there is something for everyone in
+              the value chain.
             </span>
           </>
         }

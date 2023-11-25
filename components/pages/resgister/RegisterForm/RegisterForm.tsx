@@ -60,7 +60,7 @@ const RegisterForm = () => {
         <div className="col-span-1 flex justify-end md:col-span-2">
           <button
             type="submit"
-            className="relative z-[500] overflow-hidden rounded-sm border border-green-500 bg-white px-5 py-3 font-semibold text-green-500 duration-300 before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-0 before:rounded-sm before:bg-green-500 before:mix-blend-difference before:duration-300 lg:hover:before:w-full"
+            className="relative z-[500] overflow-hidden rounded-sm border border-blue-500 bg-white px-5 py-3 font-semibold text-blue-500 duration-300 before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-0 before:rounded-sm before:bg-blue-500 before:mix-blend-difference before:duration-300 lg:hover:before:w-full"
           >
             <span className="">Register</span>
           </button>

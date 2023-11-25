@@ -98,7 +98,7 @@ const Footer = () => {
           >
             <Link
               href="/register"
-              className="relative z-10 block overflow-hidden rounded-sm border border-green-950 bg-white px-5 py-3 text-lg font-semibold text-green-500 duration-300 before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-0 before:rounded-sm before:bg-green-500 before:mix-blend-difference before:duration-300 md:px-8 md:py-4 md:text-xl lg:px-10 lg:py-5 lg:text-2xl lg:hover:before:w-full"
+              className="relative z-10 block overflow-hidden rounded-sm border border-blue-950 bg-white px-5 py-3 text-lg font-semibold text-blue-500 duration-300 before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-0 before:rounded-sm before:bg-blue-500 before:mix-blend-difference before:duration-300 md:px-8 md:py-4 md:text-xl lg:px-10 lg:py-5 lg:text-2xl lg:hover:before:w-full"
             >
               <span className="z-20">Register Now</span>
             </Link>
@@ -106,7 +106,7 @@ const Footer = () => {
         </div>
       </section>
 
-      <footer className="w-full bg-green-950 p-5 pt-20 text-white md:px-5 md:py-16 md:pt-32 lg:px-28">
+      <footer className="w-full bg-blue-950 p-5 pt-20 text-white md:px-5 md:py-16 md:pt-32 lg:px-28">
         <div className="container flex flex-col space-y-10">
           <div className="flex w-full flex-col items-center justify-between space-y-20 md:flex-row md:items-start md:space-y-0">
             <div className="flex flex-col items-center space-y-3 md:items-start">
@@ -162,7 +162,7 @@ const Footer = () => {
                     <span className="font-medium">{item.label}</span>
                     <Link
                       href={`mailto:${item.email}`}
-                      className="relative cursor-pointer text-sm text-white/60 duration-500 before:absolute before:-bottom-2 before:left-0 before:h-0.5 before:w-0 before:bg-green-500 before:duration-300 hover:before:w-full"
+                      className="relative cursor-pointer text-sm text-white/60 duration-500 before:absolute before:-bottom-2 before:left-0 before:h-0.5 before:w-0 before:bg-blue-500 before:duration-300 hover:before:w-full"
                     >
                       {item.email}
                     </Link>
@@ -176,7 +176,7 @@ const Footer = () => {
           <div className="flex w-full items-center justify-center border-t border-white/10 pt-10">
             <div className="space-y-0.5">
               <p className="text-xs text-white lg:text-sm">
-                Copyright @ Sweconomicsummit 2023
+                Hosted by: Nigerian NewsDirect
               </p>
             </div>
           </div>

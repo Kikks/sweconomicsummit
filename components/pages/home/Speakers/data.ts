@@ -1,38 +1,40 @@
 export const speakers = [
   {
-    name: 'Jason Statham',
-    title: 'Director of Data Intelligence Product Alibaba Cloud',
-    image:
-      'https://res.cloudinary.com/kikks/image/upload/ar_3:4,c_fill/c_scale,w_500/dpr_auto/v1698944427/sweconomicsummit/vynkse95168ataieyhxh.jpg',
+    name: 'Mr Wale Edun',
+    title: 'Co-ordinating Minister of the Economy and Minister of Finance',
+    image: '/assets/images/wale-edun.jpg',
+  },
+];
+
+export const guestsOfHonour = [
+  {
+    name: 'Prince Dapo Abiodun',
+    title: 'Governor of Ogun State',
+    image: '/assets/images/dapo-abiodun.jpg',
   },
   {
-    name: 'Jason Statham',
-    title: 'Director of Data Intelligence Product Alibaba Cloud',
-    image:
-      'https://res.cloudinary.com/kikks/image/upload/ar_3:4,c_fill/c_scale,w_500/dpr_auto/v1698944427/sweconomicsummit/lmrgn3r9qmtuds0hp5yj.jpg',
+    name: 'Mr Babajide Sanwo-Olu',
+    title: 'Governor of Lagos State',
+    image: '/assets/images/babajide-sanwoolu.jpeg',
   },
   {
-    name: 'Jason Statham',
-    title: 'Director of Data Intelligence Product Alibaba Cloud',
-    image:
-      'https://res.cloudinary.com/kikks/image/upload/ar_3:4,c_fill/c_scale,w_500/dpr_auto/v1698944427/sweconomicsummit/ngfu9e1npgzkcdj7wggc.jpg',
+    name: 'Engr. Seyi Makinde',
+    title: 'Governor of Oyo State',
+    image: '/assets/images/seyi-makinde.jpeg',
   },
   {
-    name: 'Jason Statham',
-    title: 'Director of Data Intelligence Product Alibaba Cloud',
-    image:
-      'https://res.cloudinary.com/kikks/image/upload/ar_3:4,c_fill/c_scale,w_500/dpr_auto/v1698944427/sweconomicsummit/vynkse95168ataieyhxh.jpg',
+    name: 'Mr Arakunrin Oluwarotimi Akeredolu',
+    title: 'Governor of Ondo State',
+    image: '/assets/images/oluwarotimi-akeredolu.jpeg',
   },
   {
-    name: 'Jason Statham',
-    title: 'Director of Data Intelligence Product Alibaba Cloud',
-    image:
-      'https://res.cloudinary.com/kikks/image/upload/ar_3:4,c_fill/c_scale,w_500/dpr_auto/v1698944427/sweconomicsummit/lmrgn3r9qmtuds0hp5yj.jpg',
+    name: 'Mr Biodun Oyebanji',
+    title: 'Governor of Ogun State',
+    image: '/assets/images/abiodun-oyebanji.jpeg',
   },
   {
-    name: 'Jason Statham',
-    title: 'Director of Data Intelligence Product Alibaba Cloud',
-    image:
-      'https://res.cloudinary.com/kikks/image/upload/ar_3:4,c_fill/c_scale,w_500/dpr_auto/v1698944427/sweconomicsummit/ngfu9e1npgzkcdj7wggc.jpg',
+    name: 'Mr Ademola Adeleke',
+    title: 'Governor of Osun State',
+    image: '/assets/images/ademola-adeleke.jpeg',
   },
 ];

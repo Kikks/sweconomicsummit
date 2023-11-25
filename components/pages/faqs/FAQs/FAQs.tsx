@@ -25,15 +25,15 @@ const FAQs = () => {
                 }}
                 viewport={{ once: true, margin: '-100px' }}
               >
-                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-green-100 px-4 py-2 text-left text-lg font-medium text-green-950 duration-300 hover:bg-green-200 focus:outline-none focus-visible:ring focus-visible:ring-green-500/75">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-lg font-medium text-blue-950 duration-300 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
                   <span>{item.question}</span>
                   <ChevronUpIcon
                     className={`${
                       open ? 'rotate-180' : ''
-                    } h-5 w-5 text-green-500  duration-300`}
+                    } h-5 w-5 text-blue-500  duration-300`}
                   />
                 </Disclosure.Button>
-                <Disclosure.Panel className="px-5 pb-10 pt-5 text-green-950">
+                <Disclosure.Panel className="px-5 pb-10 pt-5 text-blue-950">
                   {item.answer}
                 </Disclosure.Panel>
               </motion.div>

@@ -61,7 +61,7 @@ const Reasons = () => {
               whileInView="visible"
               className="col-span-1 flex scroll-mt-[200px] items-start space-x-2"
             >
-              <span className="self-start font-poppins text-sm font-black text-green-500 md:text-base">
+              <span className="self-start font-poppins text-sm font-black text-blue-500 md:text-base">
                 0{index + 1}
               </span>
 
