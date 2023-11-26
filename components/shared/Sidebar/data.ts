@@ -15,7 +15,9 @@ export const otherLinks = [
   },
   {
     name: 'Sponsor',
-    url: '/sponsor',
+    url: 'tel:+2347012554798',
+    target: '_blank',
+    rel: 'noopener noreferrer',
   },
   {
     name: 'Newsroom',
