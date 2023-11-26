@@ -4,6 +4,7 @@ import React from 'react';
 
 import appConfig from '../../../utils/appConfig';
 import { socials } from '../Sidebar/data';
+import { NigerianNewsDirect } from '../Sidebar/icons';
 import { footerLinks, inquiryLinks } from './data';
 import FooterLink from './FooterLink';
 
@@ -74,7 +75,7 @@ const Footer = () => {
             viewport={{ once: true, margin: '-100px' }}
             className="text-xl md:text-3xl"
           >
-            Register now for a unique experience of inspiration, meeting and
+            Register now for a unique experience of learning, partnerships and
             networking.
           </motion.p>
 
@@ -175,8 +176,10 @@ const Footer = () => {
 
           <div className="flex w-full items-center justify-center border-t border-white/10 pt-10">
             <div className="space-y-0.5">
-              <p className="text-xs text-white lg:text-sm">
-                Hosted by: Nigerian NewsDirect
+              <p className="flex items-center space-x-3 text-xs text-white lg:text-sm">
+                <span>Hosted by:</span>
+
+                <NigerianNewsDirect height={17} width={100} />
               </p>
             </div>
           </div>

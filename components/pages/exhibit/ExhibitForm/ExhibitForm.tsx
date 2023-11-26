@@ -1,27 +1,24 @@
 import type { FormEvent } from 'react';
 import React, { useState } from 'react';
-import toast from 'react-hot-toast';
+import { toast } from 'react-hot-toast';
 
 import Input from '../../../ui/Input';
 import Select from '../../../ui/Select';
-import { nationality } from './data';
+import { countries } from '../../resgister/RegisterForm/data';
 
 const formURL =
-  'https://script.google.com/macros/s/AKfycbyy9DXTAcQHTyqUhJuhyn5rskC5htSKEDU_dakO2jAle8FYm8HfMB3B-SXb86kdqL3BnA/exec';
+  'https://script.google.com/macros/s/AKfycbw0Mwy9gTrx4eVJ00vVKSJyTrF5CfDFXZUl9Eo8t2barw82Av75MgPwsLIiMjSxasczrw/exec';
 
-const RegisterForm = () => {
+const ExhibitForm = () => {
   const [loading, setLoading] = useState(false);
   const [isComplete, setIsComplete] = useState(false);
   const [payload, setPayload] = useState({
-    'First Name': '',
-    'Last Name': '',
+    'Full Name': '',
     'Phone Number': '',
     Email: '',
-    Nationality: '',
+    Country: '',
     Organization: '',
-    'Job Role': '',
-    'Would you like to exhibit?': '',
-    'Would you like to partner?': '',
+    'Product Category': '',
   });
 
   const handleChange = (e: FormEvent<HTMLInputElement | HTMLSelectElement>) => {
@@ -72,19 +69,9 @@ const RegisterForm = () => {
           <div>
             <Input
               required
-              label="First Name"
-              name="First Name"
-              value={payload['First Name']}
-              onChange={handleChange}
-              disabled={loading}
-            />
-          </div>
-          <div>
-            <Input
-              required
-              label="Last Name"
-              name="Last Name"
-              value={payload['Last Name']}
+              label="Full Name"
+              name="Full Name"
+              value={payload['Full Name']}
               onChange={handleChange}
               disabled={loading}
             />
@@ -112,22 +99,8 @@ const RegisterForm = () => {
             />
           </div>
           <div>
-            <Select
-              required
-              label="Nationality"
-              options={['', ...nationality].map((item) => ({
-                label: item,
-                value: item,
-              }))}
-              name="Nationality"
-              value={payload.Nationality}
-              onChange={handleChange}
-              disabled={loading}
-            />
-          </div>
-
-          <div>
             <Input
+              required
               label="Organization"
               name="Organization"
               value={payload.Organization}
@@ -136,41 +109,25 @@ const RegisterForm = () => {
             />
           </div>
           <div>
+            <Select
+              required
+              label="Country"
+              options={['', ...countries].map((item) => ({
+                label: item,
+                value: item,
+              }))}
+              name="Country"
+              value={payload.Country}
+              onChange={handleChange}
+              disabled={loading}
+            />
+          </div>
+          <div>
             <Input
               required
-              label="Job Role"
-              name="Job Role"
-              value={payload['Job Role']}
-              onChange={handleChange}
-              disabled={loading}
-            />
-          </div>
-
-          <div>
-            <Select
-              required
-              label="Would you like to exhibit?"
-              options={['', 'No', 'Yes'].map((item) => ({
-                label: item,
-                value: item,
-              }))}
-              name="Would you like to exhibit?"
-              value={payload['Would you like to exhibit?']}
-              onChange={handleChange}
-              disabled={loading}
-            />
-          </div>
-
-          <div>
-            <Select
-              required
-              label="Would you like to partner?"
-              options={['', 'No', 'Yes'].map((item) => ({
-                label: item,
-                value: item,
-              }))}
-              name="Would you like to partner?"
-              value={payload['Would you like to partner?']}
+              label="Product Category"
+              name="Product Category"
+              value={payload['Product Category']}
               onChange={handleChange}
               disabled={loading}
             />
@@ -182,7 +139,7 @@ const RegisterForm = () => {
               disabled={loading}
               className="relative z-[500] overflow-hidden rounded-sm border border-blue-500 bg-white px-5 py-3 font-semibold text-blue-500 duration-300 before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-0 before:rounded-sm before:bg-blue-500 before:mix-blend-difference before:duration-300 disabled:cursor-not-allowed disabled:before:!w-0 lg:hover:before:w-full"
             >
-              <span className="">{loading ? 'Loading...' : 'Register'}</span>
+              <span className="">{loading ? 'Loading...' : 'Submit'}</span>
             </button>
           </div>
         </form>
@@ -191,4 +148,4 @@ const RegisterForm = () => {
   );
 };
 
-export default RegisterForm;
+export default ExhibitForm;

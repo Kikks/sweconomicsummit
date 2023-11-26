@@ -59,7 +59,7 @@ const ConferenceSchedule = () => {
           </div>
           <div className="relative z-10 h-14 w-full sm:h-16 md:h-20 lg:h-28">
             <AnimatedHeader
-              title="just a conference"
+              title="a conference"
               visible={isInView}
               delay={0.3}
               className="inline-block !w-auto whitespace-nowrap font-poppins text-4xl font-bold leading-loose text-blue-500 drop-shadow-sm sm:text-6xl md:text-7xl lg:text-[5.5rem]"

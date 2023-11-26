@@ -9,7 +9,7 @@ export const reasons = [
     title: 'Engagement dinner with Government',
     id: 'engagement-dinner-with-government',
     description:
-      'he SWES 2024 provides a platform for interaction with high level government officials at a special dinner session.',
+      'The SWES 2024 provides a platform for interaction with high level government officials at a special dinner session.',
   },
   {
     title: 'Product Launch Sessions',

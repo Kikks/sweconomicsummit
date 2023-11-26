@@ -19,7 +19,9 @@ export const otherLinks = [
   },
   {
     name: 'Newsroom',
-    url: '/newsroom',
+    url: 'https://nigeriannewsdirect.com/',
+    target: '_blank',
+    rel: 'noopener noreferrer',
   },
   {
     name: 'Media hub',
@@ -30,22 +32,22 @@ export const otherLinks = [
 export const socials = [
   {
     name: 'Facebook',
-    url: 'https://www.facebook.com/SwEconomicSummit',
+    url: 'https://www.facebook.com/profile.php?id=61553368957240&mibextid=ZbWKwL',
     icon: FacebookIcon,
   },
   {
     name: 'Instagram',
-    url: 'https://www.instagram.com/sweconomicsummit/',
+    url: 'https://instagram.com/sweconomicsummit?igshid=OGQ5ZDc2ODk2ZA==',
     icon: InstagramIcon,
   },
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/company/swedish-economic-summit/',
+    url: 'https://www.linkedin.com/company/south-west-economic-summit/',
     icon: LinkedinIcon,
   },
   {
     name: 'Twitter',
-    url: 'https://twitter.com/SwEconomicSummit',
+    url: 'https://x.com/sweconsummitng?t=Nl9_Yk4Ukfoq0XPyooBlSg&s=09',
     icon: TwitterIcon,
   },
 ];

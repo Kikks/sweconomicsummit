@@ -4,24 +4,21 @@ import toast from 'react-hot-toast';
 
 import Input from '../../../ui/Input';
 import Select from '../../../ui/Select';
-import { nationality } from './data';
+import { nationality } from '../../resgister/RegisterForm/data';
 
 const formURL =
-  'https://script.google.com/macros/s/AKfycbyy9DXTAcQHTyqUhJuhyn5rskC5htSKEDU_dakO2jAle8FYm8HfMB3B-SXb86kdqL3BnA/exec';
+  'https://script.google.com/macros/s/AKfycbxKHX0uAj3yVyRfGQvWDBBvzZNn4g8Y3VBknLVunmzMlWMMqDe4KnnipDE8qc8sLl6GeA/exec';
 
-const RegisterForm = () => {
+const MediaHubForm = () => {
   const [loading, setLoading] = useState(false);
   const [isComplete, setIsComplete] = useState(false);
   const [payload, setPayload] = useState({
-    'First Name': '',
-    'Last Name': '',
+    'Full Name': '',
     'Phone Number': '',
     Email: '',
-    Nationality: '',
-    Organization: '',
-    'Job Role': '',
-    'Would you like to exhibit?': '',
-    'Would you like to partner?': '',
+    Country: '',
+    'Form of Media': '',
+    Designation: '',
   });
 
   const handleChange = (e: FormEvent<HTMLInputElement | HTMLSelectElement>) => {
@@ -72,19 +69,9 @@ const RegisterForm = () => {
           <div>
             <Input
               required
-              label="First Name"
-              name="First Name"
-              value={payload['First Name']}
-              onChange={handleChange}
-              disabled={loading}
-            />
-          </div>
-          <div>
-            <Input
-              required
-              label="Last Name"
-              name="Last Name"
-              value={payload['Last Name']}
+              label="Full Name"
+              name="Full Name"
+              value={payload['Full Name']}
               onChange={handleChange}
               disabled={loading}
             />
@@ -114,63 +101,37 @@ const RegisterForm = () => {
           <div>
             <Select
               required
-              label="Nationality"
+              label="Country"
               options={['', ...nationality].map((item) => ({
                 label: item,
                 value: item,
               }))}
-              name="Nationality"
-              value={payload.Nationality}
+              name="Country"
+              value={payload.Country}
               onChange={handleChange}
               disabled={loading}
             />
           </div>
-
-          <div>
-            <Input
-              label="Organization"
-              name="Organization"
-              value={payload.Organization}
-              onChange={handleChange}
-              disabled={loading}
-            />
-          </div>
-          <div>
-            <Input
-              required
-              label="Job Role"
-              name="Job Role"
-              value={payload['Job Role']}
-              onChange={handleChange}
-              disabled={loading}
-            />
-          </div>
-
           <div>
             <Select
               required
-              label="Would you like to exhibit?"
-              options={['', 'No', 'Yes'].map((item) => ({
+              label="Form of Media"
+              options={['', 'TV', 'Radio', 'Print'].map((item) => ({
                 label: item,
                 value: item,
               }))}
-              name="Would you like to exhibit?"
-              value={payload['Would you like to exhibit?']}
+              name="Form of Media"
+              value={payload['Form of Media']}
               onChange={handleChange}
               disabled={loading}
             />
           </div>
-
           <div>
-            <Select
+            <Input
               required
-              label="Would you like to partner?"
-              options={['', 'No', 'Yes'].map((item) => ({
-                label: item,
-                value: item,
-              }))}
-              name="Would you like to partner?"
-              value={payload['Would you like to partner?']}
+              label="Designation"
+              name="Designation"
+              value={payload.Designation}
               onChange={handleChange}
               disabled={loading}
             />
@@ -182,7 +143,7 @@ const RegisterForm = () => {
               disabled={loading}
               className="relative z-[500] overflow-hidden rounded-sm border border-blue-500 bg-white px-5 py-3 font-semibold text-blue-500 duration-300 before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-0 before:rounded-sm before:bg-blue-500 before:mix-blend-difference before:duration-300 disabled:cursor-not-allowed disabled:before:!w-0 lg:hover:before:w-full"
             >
-              <span className="">{loading ? 'Loading...' : 'Register'}</span>
+              <span className="">{loading ? 'Loading...' : 'Submit'}</span>
             </button>
           </div>
         </form>
@@ -191,4 +152,4 @@ const RegisterForm = () => {
   );
 };
 
-export default RegisterForm;
+export default MediaHubForm;

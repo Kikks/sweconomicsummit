@@ -1,17 +1,26 @@
 export const slides = [
   {
     image:
-      'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_1200/dpr_auto/v1698944427/sweconomicsummit/wib8chm1esrzg2zyto3e.jpg',
-    title: ['Empowering Futures,', 'Igniting Prosperity'],
+      'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_1200/dpr_auto//v1701017844/sweconomicsummit/csm_julius_berger_international_referenz_lekki-ikoyi-bridge_08_hjvd0r.jpg',
   },
   {
     image:
-      'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_1200/dpr_auto/v1698944427/sweconomicsummit/ehn9cmmauzkxfgrfx0rf.jpg',
-    title: ['Charting the Course for', 'Regional Growth'],
+      'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_1200/dpr_auto/v1701017843/sweconomicsummit/Lagos-blue-line_pb8dcx.jpg',
   },
   {
     image:
-      'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_1200/dpr_auto/v1698944427/sweconomicsummit/lpkpr36s46gw6kwtbgeh.jpg',
-    title: ['Bridging Horizons,', 'Building Economies'],
+      'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_1200/dpr_auto/v1701017840/sweconomicsummit/b98b0a_5aef202c037d4fdeb349f0ab974d71d6_mv2_z31x0x.jpg',
+  },
+  {
+    image:
+      'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_1200/dpr_auto/v1701017792/sweconomicsummit/Idanre-Hill_c5bpuz.jpg',
+  },
+  {
+    image:
+      'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_1200/dpr_auto/v1701018264/sweconomicsummit/FLpywdhXoAkwmLt_bmejxi.jpg',
+  },
+  {
+    image:
+      'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_1200/dpr_auto/v1701018446/sweconomicsummit/ikogosi4_olvgz5.jpg',
   },
 ];

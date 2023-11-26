@@ -10,15 +10,15 @@ export const Partner1 = () => (
     <g
       id="partners-logos"
       stroke="none"
-      stroke-width="1"
+      strokeWidth="1"
       fill="none"
-      fill-rule="evenodd"
+      fillRule="evenodd"
     >
       <g
         id="cai"
         transform="translate(23.000000, 16.000000)"
         fill="#FFFFFF"
-        fill-rule="nonzero"
+        fillRule="nonzero"
         className="fill-blue-950 duration-300 group-hover:fill-blue-500"
       >
         <path
@@ -131,9 +131,9 @@ export const Partner2 = () => (
     <g
       id="partners-logos"
       stroke="none"
-      stroke-width="1"
+      strokeWidth="1"
       fill="none"
-      fill-rule="evenodd"
+      fillRule="evenodd"
     >
       <g id="LogsticInWallonia" transform="translate(19.000000, 6.000000)">
         <path
@@ -716,9 +716,9 @@ export const Partner3 = () => (
     <g
       id="partners-logos"
       stroke="none"
-      stroke-width="1"
+      strokeWidth="1"
       fill="none"
-      fill-rule="evenodd"
+      fillRule="evenodd"
     >
       <g id="montea" transform="translate(27.000000, 13.000000)">
         <polygon
@@ -1022,9 +1022,9 @@ export const Partner4 = () => (
     <g
       id="partners-logos"
       stroke="none"
-      stroke-width="1"
+      strokeWidth="1"
       fill="none"
-      fill-rule="evenodd"
+      fillRule="evenodd"
     >
       <g id="MacKinsey" transform="translate(13.000000, 14.000000)">
         <path
@@ -1133,16 +1133,16 @@ export const Partner5 = () => (
     <g
       id="partners-logos"
       stroke="none"
-      stroke-width="1"
+      strokeWidth="1"
       fill="none"
-      fill-rule="evenodd"
+      fillRule="evenodd"
     >
       <g
         id="QRCargo-white"
         transform="translate(5.000000, 18.000000)"
         fill="#FFFFFF"
         className="fill-blue-950 duration-300 group-hover:fill-blue-500"
-        fill-rule="nonzero"
+        fillRule="nonzero"
       >
         <path
           d="M62.480248,4.30416362 L62.3800792,4.30416362 C62.2588223,4.06223521 61.9003237,3.34696859 60.434697,3.34696859 C58.7318285,3.34696859 57.8250378,4.46720234 57.8250378,6.38685172 C57.8250378,6.74448503 57.8250378,7.68590212 58.4471384,8.51161432 C58.8109091,8.99021183 59.3644731,9.43725347 60.2923519,9.43725347 C61.5470971,9.43725347 62.1902858,8.81665449 62.6436812,8.28020453 L62.754394,8.3485756 L62.6436812,9.35836377 C61.8686915,9.78436815 60.9935331,10 60.0656543,10 C58.0780957,10 56.4279476,8.76932067 56.4279476,6.48151936 C56.4279476,4.44090577 57.6826928,2.8 60.4030647,2.8 C61.2360468,2.8 61.9688602,2.94200146 62.7860262,3.3101534 L62.480248,4.30416362 Z"

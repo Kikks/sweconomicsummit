@@ -1,6 +1,6 @@
 const appConfig = {
-  site_name: 'SWES',
-  title: 'South West Economic Summit',
+  site_name: 'SWES 2024',
+  title: 'South West Economic Summit 2024',
   description: '',
   locale: 'en',
 };

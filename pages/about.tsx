@@ -39,7 +39,7 @@ const AboutPage = () => {
             </span>
 
             <span>
-              With numerous speeches, hugh lebel networking, dinner and plenary
+              With numerous speeches, high level networking, dinner and plenary
               sessions throughout the summit, there is something for everyone in
               the value chain.
             </span>

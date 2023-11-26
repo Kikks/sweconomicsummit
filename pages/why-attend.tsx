@@ -10,7 +10,10 @@ const WhyAttendPage = () => {
         title: `Why Attend - ${appConfig.title}`,
       }}
     >
-      <Hero title="Why Attend" subtitle="Join us for this exciting event ..." />
+      <Hero
+        title="Why Attend"
+        subtitle="Join us for this transforming event ..."
+      />
       <Reasons />
     </AppLayout>
   );
