@@ -75,7 +75,13 @@ const Partners = () => {
               whileInView="visible"
               className={`group col-span-1 flex aspect-square items-center justify-center border border-blue-950/10 p-10 `}
             >
-              <item.Icon />
+              <figure className="h-full w-full">
+                <img
+                  src={item.Icon}
+                  alt={item.name}
+                  className="h-full w-full object-contain"
+                />
+              </figure>
             </motion.div>
           ))}
         </motion.div>

@@ -3,12 +3,7 @@ import Link from 'next/link';
 import React, { useRef } from 'react';
 
 import AnimatedHeader from '../../../ui/AnimatedHeader';
-import {
-  bronzePartners,
-  goldPartners,
-  mediaPartners,
-  silverPartners,
-} from './data';
+import { goldPartners } from './data';
 
 const containerVariants = {
   hidden: {
@@ -75,7 +70,7 @@ const Partners = () => {
             viewport={{ once: true }}
             className="font-poppins text-sm font-bold capitalize text-blue-500 md:text-base"
           >
-            GOLD PARTNERS
+            PARTNERS
           </motion.h2>
 
           <motion.div
@@ -93,133 +88,13 @@ const Partners = () => {
                 whileInView="visible"
                 className={`group col-span-1 flex aspect-square items-center justify-center border border-blue-950/10 p-10 `}
               >
-                <item.Icon />
-              </motion.div>
-            ))}
-          </motion.div>
-        </div>
-
-        <div className="flex w-full flex-col space-y-5">
-          <motion.h2
-            initial={{
-              opacity: 0,
-              y: 50,
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-              transition: {
-                duration: 0.5,
-                type: 'spring',
-                damping: 30,
-              },
-            }}
-            viewport={{ once: true }}
-            className="font-poppins text-sm font-bold capitalize text-blue-500 md:text-base"
-          >
-            SILVER PARTNERS
-          </motion.h2>
-
-          <motion.div
-            variants={containerVariants}
-            initial="hidden"
-            animate={isInView ? 'visible' : 'hidden'}
-            className="grid w-full grid-cols-2 md:grid-cols-4 lg:grid-cols-5"
-          >
-            {silverPartners.map((item, i) => (
-              <motion.div
-                key={i}
-                initial="hidden"
-                variants={itemVariants}
-                viewport={{ once: true, margin: '-100px' }}
-                whileInView="visible"
-                className={`group col-span-1 flex aspect-square items-center justify-center border border-blue-950/10 p-10 `}
-              >
-                <item.Icon />
-              </motion.div>
-            ))}
-          </motion.div>
-        </div>
-
-        <div className="flex w-full flex-col space-y-5">
-          <motion.h2
-            initial={{
-              opacity: 0,
-              y: 50,
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-              transition: {
-                duration: 0.5,
-                type: 'spring',
-                damping: 30,
-              },
-            }}
-            viewport={{ once: true }}
-            className="font-poppins text-sm font-bold capitalize text-blue-500 md:text-base"
-          >
-            BRONZE PARTNERS
-          </motion.h2>
-
-          <motion.div
-            variants={containerVariants}
-            initial="hidden"
-            animate={isInView ? 'visible' : 'hidden'}
-            className="grid w-full grid-cols-2 md:grid-cols-4 lg:grid-cols-5"
-          >
-            {bronzePartners.map((item, i) => (
-              <motion.div
-                key={i}
-                initial="hidden"
-                variants={itemVariants}
-                viewport={{ once: true, margin: '-100px' }}
-                whileInView="visible"
-                className={`group col-span-1 flex aspect-square items-center justify-center border border-blue-950/10 p-10 `}
-              >
-                <item.Icon />
-              </motion.div>
-            ))}
-          </motion.div>
-        </div>
-
-        <div className="flex w-full flex-col space-y-5">
-          <motion.h2
-            initial={{
-              opacity: 0,
-              y: 50,
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-              transition: {
-                duration: 0.5,
-                type: 'spring',
-                damping: 30,
-              },
-            }}
-            viewport={{ once: true }}
-            className="font-poppins text-sm font-bold capitalize text-blue-500 md:text-base"
-          >
-            MEDIA PARTNERS
-          </motion.h2>
-
-          <motion.div
-            variants={containerVariants}
-            initial="hidden"
-            animate={isInView ? 'visible' : 'hidden'}
-            className="grid w-full grid-cols-2 md:grid-cols-4 lg:grid-cols-5"
-          >
-            {mediaPartners.map((item, i) => (
-              <motion.div
-                key={i}
-                initial="hidden"
-                variants={itemVariants}
-                viewport={{ once: true, margin: '-100px' }}
-                whileInView="visible"
-                className={`group col-span-1 flex aspect-square items-center justify-center border border-blue-950/10 p-10 `}
-              >
-                <item.Icon />
+                <figure className="h-full w-full">
+                  <img
+                    src={item.Icon}
+                    alt={item?.name || ''}
+                    className="h-full w-full object-contain"
+                  />
+                </figure>
               </motion.div>
             ))}
           </motion.div>
