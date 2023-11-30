@@ -162,7 +162,7 @@ const Footer = () => {
                   >
                     <span className="font-medium">{item.label}</span>
                     <Link
-                      href={`mailto:${item.email}`}
+                      href={`mailto:${item.email}?subject=${item.label}`}
                       className="relative cursor-pointer text-sm text-white/60 duration-500 before:absolute before:-bottom-2 before:left-0 before:h-0.5 before:w-0 before:bg-blue-500 before:duration-300 hover:before:w-full"
                     >
                       {item.email}
