@@ -24,14 +24,14 @@ export const footerLinks = [
 export const inquiryLinks = [
   {
     label: 'Sales Inquiries',
-    email: 'sales@sweconomicsummit.com',
+    email: 'admin@newsdirectafrica.com',
   },
   {
     label: 'Marketing Inquiries',
-    email: 'marketing@sweconomicsummit.com',
+    email: 'editor@newsdirectafrica.com',
   },
   {
     label: 'Visitor & Registration Inquiries',
-    email: 'support@sweconomicsummit.com',
+    email: 'editor@newsdirectafrica.com',
   },
 ];

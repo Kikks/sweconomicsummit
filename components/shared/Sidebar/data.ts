@@ -15,7 +15,7 @@ export const otherLinks = [
   },
   {
     name: 'Sponsor',
-    url: 'tel:+2347012554798',
+    url: 'mailto:admin@newsdirectafrica.com?subject=Sponsorhip%20Inquiry',
     target: '_blank',
     rel: 'noopener noreferrer',
   },
