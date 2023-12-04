@@ -4,10 +4,10 @@ import toast from 'react-hot-toast';
 
 import Input from '../../../ui/Input';
 import Select from '../../../ui/Select';
-import { nationality } from './data';
+import { advertisementChannels, nationality } from './data';
 
 const formURL =
-  'https://script.google.com/macros/s/AKfycbyy9DXTAcQHTyqUhJuhyn5rskC5htSKEDU_dakO2jAle8FYm8HfMB3B-SXb86kdqL3BnA/exec';
+  'https://script.google.com/macros/s/AKfycbyBHZrrbKW0l6Pfw54zXgJrx-sMTU64JDxttSqT4B8_OpswuQMN516nH3EeZHGZbUyWxg/exec';
 
 const RegisterForm = () => {
   const [loading, setLoading] = useState(false);
@@ -22,6 +22,7 @@ const RegisterForm = () => {
     'Job Role': '',
     'Would you like to exhibit?': '',
     'Would you like to partner?': '',
+    'How did you hear about the conference?': '',
   });
 
   const handleChange = (e: FormEvent<HTMLInputElement | HTMLSelectElement>) => {
@@ -48,9 +49,8 @@ const RegisterForm = () => {
           toast.error('Something went wrong. Please try again later.');
         }
       })
-      .catch((err) => {
+      .catch(() => {
         toast.error('Something went wrong. Please try again later.');
-        console.log(err);
       })
       .finally(() => setLoading(false));
   };
@@ -171,6 +171,21 @@ const RegisterForm = () => {
               }))}
               name="Would you like to partner?"
               value={payload['Would you like to partner?']}
+              onChange={handleChange}
+              disabled={loading}
+            />
+          </div>
+
+          <div>
+            <Select
+              required
+              label="How did you hear about the conference?"
+              options={['', ...advertisementChannels].map((item) => ({
+                label: item,
+                value: item,
+              }))}
+              name="How did you hear about the conference?"
+              value={payload['How did you hear about the conference?']}
               onChange={handleChange}
               disabled={loading}
             />
