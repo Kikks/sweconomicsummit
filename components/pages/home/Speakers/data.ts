@@ -29,7 +29,7 @@ export const guestsOfHonour = [
   },
   {
     name: 'Mr Biodun Oyebanji',
-    title: 'Governor of Ogun State',
+    title: 'Governor of Ekiti State',
     image: '/assets/images/abiodun-oyebanji.jpeg',
   },
   {

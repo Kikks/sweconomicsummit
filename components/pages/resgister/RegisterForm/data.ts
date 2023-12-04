@@ -25,6 +25,16 @@ export const titles = [
   'Sir.',
 ];
 
+export const advertisementChannels = [
+  'Facebook',
+  'Instagram',
+  'LinkedIn',
+  'Twitter',
+  'A friend',
+  'A mentor',
+  'Others',
+];
+
 export const nationality = [
   'Afghanistan',
   'Aland Islands',
