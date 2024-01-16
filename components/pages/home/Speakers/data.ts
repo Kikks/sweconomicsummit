@@ -23,9 +23,9 @@ export const guestsOfHonour = [
     image: '/assets/images/seyi-makinde.jpeg',
   },
   {
-    name: 'Mr Arakunrin Oluwarotimi Akeredolu',
+    name: 'Mr Lucky Orimisan Aiyedatiwa',
     title: 'Governor of Ondo State',
-    image: '/assets/images/oluwarotimi-akeredolu.jpeg',
+    image: '/assets/images/lucky-orimisan.jpg',
   },
   {
     name: 'Mr Biodun Oyebanji',
